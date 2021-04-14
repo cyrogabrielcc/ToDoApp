@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/cyro/.dotnet/store/|arch|/|tfm|",
+      "/home/cyro/.nuget/packages"
+    ]
+  }
+}

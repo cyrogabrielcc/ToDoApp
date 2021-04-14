@@ -1,0 +1,12 @@
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/bin/Debug/net5.0/Todo.Domain.deps.json
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/bin/Debug/net5.0/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/bin/Debug/net5.0/ref/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/bin/Debug/net5.0/Todo.Domain.pdb
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.csprojAssemblyReference.cache
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.AssemblyInfoInputs.cache
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.AssemblyInfo.cs
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.csproj.CoreCompileInputs.cache
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/ref/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain/obj/Debug/net5.0/Todo.Domain.pdb
