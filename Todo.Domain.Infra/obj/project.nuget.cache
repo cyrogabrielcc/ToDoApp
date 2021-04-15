@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PPxqwSHqnjSdkRVUNQ3ooyYXs76e7/3X77wQ2EeIjx86tZbjUVmuBThI+IplwkZTqjV8ubhau4yjimfdr45z5g==",
+  "dgSpecHash": "E0P4+J6YRBxRV9eEXryKw6mpHBqj/SLWahqIFzPbpqIfDqs+3x5Xs+kQN0Bl0qnObR9C/EOUJW6/y4rB36u8nQ==",
   "success": true,
   "projectFilePath": "/home/cyro/Documentos/Projects/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/cyro/.nuget/packages/flunt/2.0.3/flunt.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
