@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "b29bWMh2BGzcVqp/kr/mMFB8oJlT/cmVO/pABu1ZnFVSH4CtqCakXMYtudYDPSQNvAJKM8N/FiWXCZcVDW4AHw==",
+  "dgSpecHash": "pB+QPxZ6lyrxEXpbuyyqN/qxlgtCD3MeFwa4qGU4RE5n8JtvHXEsGgngM0L6P/5LEBxw3xo3uaVYqn8M+Qtsdg==",
   "success": true,
   "projectFilePath": "/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
   "expectedPackageFiles": [
-    "/home/cyro/.nuget/packages/flunt/2.0.3/flunt.2.0.3.nupkg.sha512",
+    "/home/cyro/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
     "/home/cyro/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/cyro/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/cyro/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",

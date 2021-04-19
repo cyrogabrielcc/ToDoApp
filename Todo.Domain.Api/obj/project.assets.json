@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Flunt/2.0.3": {
+      "Flunt/1.0.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Flunt.dll": {}
@@ -89,7 +89,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "flunt": "2.0.3"
+          "flunt": "1.0.4"
         },
         "compile": {
           "bin/placeholder/Todo.Domain.dll": {}
@@ -114,16 +114,15 @@
     }
   },
   "libraries": {
-    "Flunt/2.0.3": {
-      "sha512": "0AEzlD5GM7b9aNn+CjSU9T9dney9ZqIlmvBa5pmLjx5sxVH4MEv2f7yKNVLmpQ6mGgTl3vQHDwqWZEL0+sRb1A==",
+    "Flunt/1.0.4": {
+      "sha512": "zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
       "type": "package",
-      "path": "flunt/2.0.3",
+      "path": "flunt/1.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "flunt.2.0.3.nupkg.sha512",
+        "flunt.1.0.4.nupkg.sha512",
         "flunt.nuspec",
-        "icon.png",
         "lib/netstandard2.0/Flunt.dll"
       ]
     },

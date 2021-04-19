@@ -95,3 +95,6 @@
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/obj/Debug/net5.0/ref/Todo.Domain.Tests.dll
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/obj/Debug/net5.0/Todo.Domain.Tests.pdb
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/obj/Debug/net5.0/Todo.Domain.Tests.genruntimeconfig.cache
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/bin/Debug/net5.0/Flunt.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/bin/Debug/net5.0/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Tests/bin/Debug/net5.0/Todo.Domain.pdb

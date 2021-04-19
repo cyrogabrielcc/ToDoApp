@@ -16,11 +16,14 @@ namespace Todo.Domain.Handlers
         }
         public ICommandResult Handle(CreateTodoCommand command)
         {
+            //validação
             command.Validate();
             if(command.Invalid) return new GenericCommandResult(false,"Ops, parece que sua tarefa está errada!", command.Notifications);
 
+            //criar TodoItem
             var todo = new TodoItem(command.Title, command.User, command.Date);
         
+            //criar todo no repositorio
             _repository.Create(todo);
 
             return new GenericCommandResult(true, "tarefa salva", todo);

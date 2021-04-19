@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v5.0": {
       "Todo.Domain/1.0.0": {
         "dependencies": {
-          "Flunt": "2.0.3"
+          "Flunt": "1.0.4"
         },
         "runtime": {
           "Todo.Domain.dll": {}
         }
       },
-      "Flunt/2.0.3": {
+      "Flunt/1.0.4": {
         "runtime": {
           "lib/netstandard2.0/Flunt.dll": {
-            "assemblyVersion": "2.0.3.0",
-            "fileVersion": "2.0.3.0"
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Flunt/2.0.3": {
+    "Flunt/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0AEzlD5GM7b9aNn+CjSU9T9dney9ZqIlmvBa5pmLjx5sxVH4MEv2f7yKNVLmpQ6mGgTl3vQHDwqWZEL0+sRb1A==",
-      "path": "flunt/2.0.3",
-      "hashPath": "flunt.2.0.3.nupkg.sha512"
+      "sha512": "sha512-zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+      "path": "flunt/1.0.4",
+      "hashPath": "flunt.1.0.4.nupkg.sha512"
     }
   }
 }
