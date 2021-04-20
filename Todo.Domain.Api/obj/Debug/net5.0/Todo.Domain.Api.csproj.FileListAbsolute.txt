@@ -32,3 +32,8 @@
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.Infra.dll
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.pdb
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.Infra.pdb
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll

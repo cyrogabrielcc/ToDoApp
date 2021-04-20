@@ -3,16 +3,13 @@ using Flunt.Notifications;
 using Flunt.Validations;
 using Todo.Domain.Commands.Contracts;
 
-
 namespace Todo.Domain.Commands
 {
-    public class MarkToDoAsUndoneCommand :  Notifiable, ICommand
-    
+    public class MarkTodoAsDoneCommand : Notifiable, ICommand
     {
-        
-        public MarkToDoAsUndoneCommand() { }
+        public MarkTodoAsDoneCommand() { }
 
-        public MarkToDoAsUndoneCommand(Guid id, string user)
+        public MarkTodoAsDoneCommand(Guid id, string user)
         {
             Id = id;
             User = user;

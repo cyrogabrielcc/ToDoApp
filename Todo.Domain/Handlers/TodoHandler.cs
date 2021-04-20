@@ -8,7 +8,12 @@ using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers
 {
-    public class TodoHandler : Notifiable, IHandler<CreateTodoCommand>, IHandler<UpdateTodoCommand>
+    public class TodoHandler : 
+                    Notifiable, 
+                    IHandler<CreateTodoCommand>, 
+                    IHandler<UpdateTodoCommand>,
+                    IHandler<MarkTodoAsUndoneCommand>,
+                    IHandler<MarkTodoAsDoneCommand>
     {
         private readonly ITodoRepository _repository;
         public TodoHandler(ITodoRepository repository)
@@ -41,6 +46,30 @@ namespace Todo.Domain.Handlers
             _repository.Update(todo);
             return new GenericCommandResult(true,"Saved",DateTime.Now);
         }
+
+        public ICommandResult Handle(MarkTodoAsDoneCommand command)
+        {
+            var todo = _repository.GetById(command.Id, command.User);
+
+            todo.MarkAsDone();
+
+            _repository.Update(todo);
+
+            return new GenericCommandResult(true,"Saved",DateTime.Now);
+        }
+
+        public ICommandResult Handle(MarkTodoAsUndoneCommand command)
+        {
+            var todo = _repository.GetById(command.Id, command.User);
+
+            todo.MarkAsUndone();
+
+            _repository.Update(todo);
+            
+            return new GenericCommandResult(true,"Saved",DateTime.Now);
+        }
+
+    
     }
 }
 
