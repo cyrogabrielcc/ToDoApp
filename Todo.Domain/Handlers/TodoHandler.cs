@@ -1,3 +1,4 @@
+using System;
 using Flunt.Notifications;
 using Todo.Domain.Commands;
 using Todo.Domain.Commands.Contracts;
@@ -7,7 +8,7 @@ using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers
 {
-    public class TodoHandler : Notifiable, IHandler<CreateTodoCommand>
+    public class TodoHandler : Notifiable, IHandler<CreateTodoCommand>, IHandler<UpdateTodoCommand>
     {
         private readonly ITodoRepository _repository;
         public TodoHandler(ITodoRepository repository)
@@ -27,7 +28,19 @@ namespace Todo.Domain.Handlers
             _repository.Create(todo);
 
             return new GenericCommandResult(true, "tarefa salva", todo);
-        }     
+        }
+
+        public ICommandResult Handle(UpdateTodoCommand command)
+        {
+            if(command.Invalid) return new GenericCommandResult(false, "Ops, a tarefa está errada!", command.Notifications);
+
+            var todo = _repository.GetById(command.Id, command.User);
+
+            todo.UpdateTitle(command.Title);
+
+            _repository.Update(todo);
+            return new GenericCommandResult(true,"Saved",DateTime.Now);
+        }
     }
 }
 

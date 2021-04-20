@@ -27,3 +27,8 @@
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/obj/Debug/net5.0/ref/Todo.Domain.Api.dll
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/obj/Debug/net5.0/Todo.Domain.Api.pdb
 /home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/obj/Debug/net5.0/Todo.Domain.Api.genruntimeconfig.cache
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Flunt.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.Infra.dll
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.pdb
+/home/cyro/Documentos/Projects/Todo/Todo.Domain.Api/bin/Debug/net5.0/Todo.Domain.Infra.pdb

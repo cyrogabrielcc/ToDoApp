@@ -1,3 +1,4 @@
+using System;
 using Todo.Domain.Entities;
 using Todo.Domain.Repositories;
 
@@ -9,6 +10,11 @@ namespace Todo.Domain.Tests.Repositories
         {
 
 
+        }
+
+        TodoItem ITodoRepository.GetById(Guid id, string user)
+        {
+            throw new NotImplementedException();
         }
 
         void ITodoRepository.Update(TodoItem todo)

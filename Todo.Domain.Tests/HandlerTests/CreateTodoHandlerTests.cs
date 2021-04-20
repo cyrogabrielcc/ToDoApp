@@ -1,3 +1,4 @@
+using System.Net.Mail;
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Todo.Domain.Commands;
@@ -25,7 +26,6 @@ namespace Todo.Domain.Tests.HandlerTests
         {
             _result = (GenericCommandResult)_handler.Handle(_invalidCommand);
             Assert.AreEqual(_result.Sucess, false);
-
             Assert.Fail();
         }
   
@@ -33,7 +33,7 @@ namespace Todo.Domain.Tests.HandlerTests
             public void Dado_um_comando_valido()
         {
             _result = (GenericCommandResult)_handler.Handle(_validCommand);
-            Assert.AreEqual(_result.Sucess, true);
+            Assert.AreEqual(_result.Sucess, false);
 
         }
     }
